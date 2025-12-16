@@ -6,6 +6,34 @@ body {
   line-height: 1.75;
 }
 
+/* INSTITUTION HEADER */
+.institution-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  color: #000;
+  padding: 10px 18px;
+}
+
+.inst-logo {
+  height: 56px;
+}
+
+.inst-text {
+  line-height: 1.2;
+}
+
+.inst-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.inst-address {
+  font-size: 0.9rem;
+}
+
+/* SECTIONS */
 section {
   max-width: 1100px;
   margin: auto;
@@ -16,14 +44,10 @@ section {
   background: #121212;
 }
 
+/* HERO */
 .hero {
   text-align: center;
   background: linear-gradient(135deg, #0f3d2e, #000);
-}
-
-.logo {
-  max-width: 140px;
-  margin-bottom: 18px;
 }
 
 h1 {
@@ -60,6 +84,7 @@ ul {
   margin-top: 14px;
 }
 
+/* CARDS */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -114,13 +139,19 @@ ul {
   color: #bbbbbb;
 }
 
+/* FOOTER */
 footer {
-  text-align: center;
   background: #000;
+  text-align: center;
   padding: 46px 20px;
   color: #aaaaaa;
 }
 
-.contact {
-  margin-top: 10px;
+.contact-block {
+  margin: 14px 0;
+}
+
+.inst-footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
 }
